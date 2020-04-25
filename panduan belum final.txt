@@ -1,0 +1,14 @@
+Langkah2 kolab di github
+1. Buka git bash
+2. git clone https://github.com/hanifburhanmkom/F6_DTS20.git
+3. masuk ke dir F6_DTS20 (cd F6_DTS20)
+4. git init
+
+
+// Silahkan edit file idex.html sesuai job masing2
+File css/ img. dll tidak perlu d rubah
+
+4. Git add index.html
+5. git commit -m "Pesan nya terserah"
+6. git remote set-url origin https://github.com/hanifburhanmkom/F6_DTS20.git
+7. git push origin master
