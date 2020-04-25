@@ -1,0 +1,88 @@
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    /* min-height: 1000px; */
+    background-color: whtie;
+}
+
+
+.nav-item {
+    padding-right: 40px !important;
+    text-align: center;
+    font-size: 18px;
+    padding-right: 20px;
+}
+
+.navbar-nav {
+    padding-left: 36px;
+}
+
+.jumbotron {
+    height: 700px;
+    width: 100%;
+    position: relative;
+    background-image: url(../../img/jumbotron.png);
+    background-size: cover;
+    background-color: #f1f2f4;
+    font-family: 'IBM Plex Sans', sans-serif;
+    /* margin-top: -20px; */
+}
+
+.display-4 {
+    font-size: 44px;
+    font-weight: 600;
+    margin-top: 180px;
+}
+
+section#konten {
+    margin-top: 150px;
+}
+
+.card-body h3 {
+    font-size: 60px;
+    text-align: center;
+}
+
+.card-body p,
+h5 {
+    text-align: center;
+}
+
+footer {
+    margin-top: 50px;
+    height: 150px;
+    background-color: #C2ECF9;
+}
+
+#map {
+    height: 100%;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
