@@ -1,42 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-     <head>
-          <meta charset="utf-8">
-          <title>Halaman pertamaku</title>
-     </head>
-     <body>
+
+<head>
+     <meta charset="utf-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;500&display=swap" rel="stylesheet" />
+     <link rel="stylesheet" href="assets/css/header/style.css" />
+     <link rel="stylesheet" href="assets/web fonts/varelaround_regular_macroman/stylesheet.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+     <script src="http://maps.googleapis.com/maps/api/js"></script>
+
+     <script>
+          // fungsi initialize untuk mempersiapkan peta
+          function initialize() {
+               var propertiPeta = {
+                    center: new google.maps.LatLng(-1.044103, 117.960347),
+                    zoom: 4,
+                    mapTypeId: google.maps.MapTypeId.ROADMAP
+               };
+
+               var peta = new google.maps.Map(document.getElementById("googleMap"), propertiPeta);
+          }
+
+          google.maps.event.addDomListener(window, 'load', initialize);
+     </script>
+
+     <title>F6_DTS20</title>
+
+</head>
+
+<body>
      <!-- header disini ya -->
-     	<section>
-     		
-     	</section>
+     <section id="navbar">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+               <div class="container">
+                    <a class="navbar-brand" href="#">
+                         <img src="assets/img/logo.png" width="150px" alt="" />
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                         data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                         aria-label="Toggle navigation">
+                         <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                         <div class="navbar-nav">
+                              <a class="nav-item nav-link active" href="#">Beranda</a>
+                              <a class="nav-item nav-link" href="#">FAQ</a>
+                              <a class="nav-item nav-link" href="#">Informasi</a>
+                              <a class="nav-item nav-link" href="#">Unduh Aplikasi</a>
+                         </div>
+                    </div>
+               </div>
+          </nav>
+     </section>
      <!-- header selesai -->
-     
+
      <!-- halaman utama -->
-     	<div class="jumbotron">
-     		
-     	</div>
+     <div class="jumbotron">
+
+     </div>
      <!-- halaman utama selesai-->
 
      <!-- bagian extra 1 -->
-     	<section id="konten">
-     		
-     	</section>
+     <section id="konten">
+
+     </section>
      <!-- bagian extra 1 selsai-->
 
      <!-- bagian extra 2 -->
-     	<section id="konten">
-     		
-     	</section>
+     <section id="konten">
+
+     </section>
      <!-- bagian extra 2 selsai-->
 
 
      <!-- footer -->
-     	<footer class="pt-4 text-center">
-     		
-     	</footer> 
+     <footer class="pt-4 text-center">
+
+     </footer>
      <!-- footer selsai-->
 
 
-          <p>Ini adalah halaman pertamaku</p>
-     </body>
+     <p>Ini adalah halaman pertamaku</p>
+</body>
+
 </html>
