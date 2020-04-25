@@ -1,0 +1,123 @@
+body {
+  font-family: 'varela_roundregular', Arial, sans-serif;
+}
+
+
+.nav-item {
+  padding-right: 40px !important;
+  text-align: center;
+  font-size: 18px;
+  padding-right: 20px;
+}
+
+.navbar-nav {
+  padding-left: 36px;
+}
+
+.jumbotron {
+  height: 650px;
+  width: 100%;
+  background-image: url(../img/jumbotron.jpg);
+  background-size: cover;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.display-4 {
+  font-size: 44px;
+  font-weight: 600;
+  margin-top: 150px;
+}
+
+.info {
+  margin-top: -70px;
+}
+
+.animasi {
+  margin-top: -350px;
+  position: relative;
+  z-index: 1;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+
+.card-body h3 {
+  font-size: 60px;
+  text-align: center;
+}
+
+.card-body p,
+h5 {
+  text-align: center;
+}
+
+footer {
+  height: 150px;
+  background-color: #f7f7f7;
+}
+
+#map {
+  height: 100%;
+}
+
+#our-team {
+  height: 20%;
+  background-color: #eeeeee;
+}
+
+.figure-img {
+  border-radius: 50% !important;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+.btn-wrapper a {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .jumbotron,
+  h4,
+  .tabel-kasus {
+    text-align: center;
+  }
+
+  .btn {
+    display: none;
+  }
+
+  .map {
+    margin-top: 10px;
+  }
+
+
+}
